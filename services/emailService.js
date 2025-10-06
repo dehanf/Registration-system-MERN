@@ -1,6 +1,9 @@
 import {Resend} from 'resend';
+import dotenv from 'dotenv';
 
-const resend = new Resend('re_eNfC7MtN_GE1h7vgeV9URg3oregDUQq8C');
+dotenv.config();
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 const sendWelcomeEmail = async (speakerData) => {
   try {
