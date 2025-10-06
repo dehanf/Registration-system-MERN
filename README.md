@@ -41,7 +41,7 @@ This project is a comprehensive user registration system that demonstrates:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Registration-system-MERN.git
+git clone https://github.com/dehanf/Registration-system-MERN.git
 cd Registration-system-MERN
 ```
 
